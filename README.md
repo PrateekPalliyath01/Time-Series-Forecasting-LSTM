@@ -27,18 +27,6 @@ Ensure you have Python installed along with the required libraries:
 pip install tensorflow pandas numpy scikit-learn matplotlib seaborn
 ```
 
-## Running the Project
-1. Clone the repository:
-```bash
-git clone <repository_url>
-cd <repository_folder>
-```
-2. Run the script:
-```bash
-python main.py
-```
-3. The model will train and generate stock price predictions, displaying the results in a visualization.
-
 ## Model Architecture
 The LSTM model consists of:
 - Two LSTM layers (64 units each)
